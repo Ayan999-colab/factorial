@@ -4,5 +4,6 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-
-print(factorial(5))  
+# Example usage:
+num = 5
+print(f"The factorial of {num} is {factorial(num)}")
